@@ -147,7 +147,7 @@
     "id": "dia-1",
     "path": "Dia a dia/Comunicação",
     "title": "Redator de E-mail Executivo",
-    "body": "Escreve um e-mail formal, persuasivo e polido focado no tema [Assunto] para enviar a [Destinatário].",
+    "body": "Enscreve um e-mail formal, persuasivo e polido focado no tema [Assunto] para enviar a [Destinatário].",
     "compatibility": {
       "gemini": "recomendado",
       "chatgpt": "recomendado",
