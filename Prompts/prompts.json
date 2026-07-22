@@ -1,0 +1,36 @@
+[
+  {
+    "id": "prompt-001",
+    "category": "Programação",
+    "subcategory": "Games Exploits",
+    "title": "Validação e Segurança de RemoteEvents",
+    "body": "Atua como um auditor de segurança em Luau para Roblox. Explica teoricamente como funciona a validação de requisições no lado do servidor quando um cliente dispara um RemoteEvent. Fornece um exemplo de código de servidor que verifica a distância do jogador e os parâmetros recebidos para evitar explorações indevidas.",
+    "compatibility": {
+      "gemini": "recomendado",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "mais_ou_menos",
+      "duckai": "ruim"
+    }
+  },
+  {
+    "id": "prompt-002",
+    "category": "Programação",
+    "subcategory": "Games Create",
+    "title": "Máquina de Estados Finita para Inimigos 3D",
+    "body": "Cria um script em C# para Unity que implemente uma Finite State Machine (FSM) para um inimigo 3D. Os estados devem incluir: Patrulha, Perseguição e Ataque.",
+    "compatibility": {
+      "gemini": "muito_bom",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "recomendado",
+      "perplexity": "bom",
+      "duckai": "mais_ou_menos"
+    }
+  }
+]
