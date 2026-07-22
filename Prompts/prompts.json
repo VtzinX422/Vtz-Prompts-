@@ -1,9 +1,8 @@
 [
   {
-    "id": "prompt-001",
-    "category": "Programação",
-    "subcategory": "Games Exploits",
-    "title": "Validação e Segurança de RemoteEvents",
+    "id": "exploit-roblox-1",
+    "path": "Programação/Games Exploits/Roblox",
+    "title": "Validação de RemoteEvents em Luau",
     "body": "Atua como um auditor de segurança em Luau para Roblox. Explica teoricamente como funciona a validação de requisições no lado do servidor quando um cliente dispara um RemoteEvent. Fornece um exemplo de código de servidor que verifica a distância do jogador e os parâmetros recebidos para evitar explorações indevidas.",
     "compatibility": {
       "gemini": "recomendado",
@@ -17,11 +16,58 @@
     }
   },
   {
-    "id": "prompt-002",
-    "category": "Programação",
-    "subcategory": "Games Create",
-    "title": "Máquina de Estados Finita para Inimigos 3D",
-    "body": "Cria um script em C# para Unity que implemente uma Finite State Machine (FSM) para um inimigo 3D. Os estados devem incluir: Patrulha, Perseguição e Ataque.",
+    "id": "exploit-fps-1",
+    "path": "Programação/Games Exploits/FPS games",
+    "title": "Análise de Lógica de Hitreg e Client-side Prediction",
+    "body": "Explica do ponto de vista de arquitetura de jogos de tiro (FPS) como funciona a validação de disparos (Hit Registration) no servidor para evitar manipulação de hitbox ou lag compensation por parte do cliente.",
+    "compatibility": {
+      "gemini": "muito_bom",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "bom",
+      "duckai": "mais_ou_menos"
+    }
+  },
+  {
+    "id": "exploit-ff-1",
+    "path": "Programação/Games Exploits/Free Fire - Beta",
+    "title": "Entendimento de Sync de Posição em Battle Royale Mobile",
+    "body": "Explica de forma técnica e teórica como os jogos Battle Royale para dispositivos móveis lidam com a sincronização de interpolação de movimento e pacotes UDP do cliente para evitar teleportes e manipulação de velocidade.",
+    "compatibility": {
+      "gemini": "bom",
+      "chatgpt": "muito_bom",
+      "claude": "muito_bom",
+      "deepseek": "bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "mais_ou_menos",
+      "duckai": "ruim"
+    }
+  },
+  {
+    "id": "exploit-gtav-1",
+    "path": "Programação/Games Exploits/GTA V - Beta",
+    "title": "Mecânicas de P2P vs Servidor Dedicado em Multiplayer",
+    "body": "Explica a diferença estrutural entre a arquitetura Peer-to-Peer (P2P) do GTA Online e servidores dedicados (como FiveM), detalhando por que conexões P2P facilitam a injeção de scripts no cliente.",
+    "compatibility": {
+      "gemini": "recomendado",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "bom",
+      "duckai": "mais_ou_menos"
+    }
+  },
+  {
+    "id": "create-1",
+    "path": "Programação/Games Create",
+    "title": "Física de Salto 2D na Godot Engine",
+    "body": "Desenha uma especificação detalhada de arquitetura e lógica de input/colisão para um jogo 2D clássico de plataformas na Godot Engine usando GDScript.",
     "compatibility": {
       "gemini": "muito_bom",
       "chatgpt": "recomendado",
@@ -31,6 +77,86 @@
       "copilot": "recomendado",
       "perplexity": "bom",
       "duckai": "mais_ou_menos"
+    }
+  },
+  {
+    "id": "roblox-game-1",
+    "path": "Programação/Roblox Games",
+    "title": "Sistema de DataStore com Pcall",
+    "body": "Escreve um script de servidor em Luau para gerir salvamento automático de moedas no Roblox Studio. O script deve utilizar pcall e um sistema de retentativa em caso de falhas na nuvem.",
+    "compatibility": {
+      "gemini": "recomendado",
+      "chatgpt": "recomendado",
+      "claude": "muito_bom",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "mais_ou_menos",
+      "duckai": "ruim"
+    }
+  },
+  {
+    "id": "script-py-1",
+    "path": "Programação/Scripts",
+    "title": "Automação com Python Scraping",
+    "body": "Escreve um script completo de web scraping utilizando as bibliotecas BeautifulSoup e Requests para extrair dados de produtos e salvar em CSV.",
+    "compatibility": {
+      "gemini": "recomendado",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "bom",
+      "duckai": "mais_ou_menos"
+    }
+  },
+  {
+    "id": "aprendizado-1",
+    "path": "Programação/Aprendizado",
+    "title": "Método Feynman para Estrutura de Dados",
+    "body": "Explica de forma simples, didática e utilizando uma analogia forte do quotidiano do mundo real o conceito de [Tema Complexo] utilizando a metodologia Feynman.",
+    "compatibility": {
+      "gemini": "recomendado",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "bom",
+      "duckai": "bom"
+    }
+  },
+  {
+    "id": "prod-1",
+    "path": "Produtividade/Organização",
+    "title": "Rotina de Foco Pomodoro",
+    "body": "Estrutura um plano diário de foco absoluto utilizando a técnica de blocos Pomodoro para o objetivo: [Seu Objetivo].",
+    "compatibility": {
+      "gemini": "recomendado",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "bom",
+      "duckai": "bom"
+    }
+  },
+  {
+    "id": "dia-1",
+    "path": "Dia a dia/Comunicação",
+    "title": "Redator de E-mail Executivo",
+    "body": "Escreve um e-mail formal, persuasivo e polido focado no tema [Assunto] para enviar a [Destinatário].",
+    "compatibility": {
+      "gemini": "recomendado",
+      "chatgpt": "recomendado",
+      "claude": "recomendado",
+      "deepseek": "muito_bom",
+      "kimi": "bom",
+      "copilot": "bom",
+      "perplexity": "bom",
+      "duckai": "bom"
     }
   }
 ]
